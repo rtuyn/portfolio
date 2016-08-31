@@ -1,0 +1,1 @@
+function run(){}$("document").ready(function(){run();var n={prefetch:!0,cacheLength:2,onStart:{duration:500,render:function(n){n.addClass("is-exiting"),t.restartCSSAnimations()}},onReady:{duration:0,render:function(n,t){n.removeClass("is-exiting"),n.html(t),run()}}},t=$("#main").smoothState(n).data("smoothState")});
